@@ -20,4 +20,5 @@ O que aprendi até aqui que pode me ajudar como QA ou que só achei interessante
 - Name serve para agrupar em caso de radio-button
 - fonts.google.com tem fontes públicas preparadas para web
 - A medida em significa que é a quantidade de vezes maior que a original 3em de uma fonte significa 3 vezes o tamanho daquela fonte
-
+- É possível copiar qualquer caractere unicode para colocar na página
+- Todo item da página não selecionável é do CSS e não HTML
