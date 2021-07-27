@@ -22,3 +22,20 @@ O que aprendi até aqui que pode me ajudar como QA ou que só achei interessante
 - A medida em significa que é a quantidade de vezes maior que a original 3em de uma fonte significa 3 vezes o tamanho daquela fonte
 - É possível copiar qualquer caractere unicode para colocar na página
 - Todo item da página não selecionável é do CSS e não HTML
+- Seletores CSS:
+    - main > p - seleciona todos o seletores p filhos diretos da main
+    - img (elemento âncora) + p - seleciona o primeiro elemento p irmão do img
+    - img ~ p - todos os seletores p que vem depois do img
+    - .principal p:not(#missao) - todos os parágrafos da classe principal que não são o id=missão
+    - section > p + h2 - seleciona o último h2 filho direto da section e irmão do p
+        <h2>
+        <section>
+        <h2>
+        <p>
+        <p>
+        <h2>
+    - https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Selectors
+    - https://developer.chrome.com/docs/devtools/overview/
+    - https://developer.mozilla.org/pt-BR/docs/Web/API/Element/querySelector
+    
+
