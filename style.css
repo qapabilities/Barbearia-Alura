@@ -158,6 +158,7 @@ td, th {
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
+	text-shadow: 2px 2px orange;
 }
 
 .titulo-principal:first-letter{
@@ -242,6 +243,13 @@ td, th {
 
 .imagem-beneficios {
 	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
 }
 
 .video {
